@@ -18,7 +18,12 @@
    git remote add origin https://github.com/<your-username>/hesabsar-yar.git
    git push -u origin main
 3. پس از push، GitHub Actions فایل .github/workflows/deploy.yml را اجرا می‌کند، سایت ساخته و شاخه gh-pages ایجاد شده و محتویات out در آن منتشر می‌شود.
-4. در قسمت Settings → Pages ممکن است لازم باشد Source را روی gh-pages تنظیم کنی، ولی معمولاً بعد از push اتوماتیک قابل مشاهده خواهد بود.
+
+4. در قسمت Settings → Pages ممکن است لازم باشد Source را روی gh-pages تنظیم کنی، ولی معمولاً بعد از push اتوماتیک قابل مشاهده خواهد بودecho "# test" >> README.md
+git add README.md
+git commit -m "Trigger workflow"
+git push
+
 
 اگر می‌خواهی من همین ساختار را طوری آماده کنم که APIها روی Vercel کار کنند (Prisma + Postgres)، بگو تا فایل‌های مورد نیاز برای deploy به Vercel را هم آماده کنم.
 ```
