@@ -1,0 +1,13 @@
+body {
+  font-family: 'Vazirmatn', 'Tahoma', Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
